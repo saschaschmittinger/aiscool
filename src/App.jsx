@@ -1,5 +1,7 @@
+import EnvironmentCom from "./components/Environment";
+
 function App() {
-  return <div>app</div>;
+  return <EnvironmentCom />;
 }
 
 export default App;
