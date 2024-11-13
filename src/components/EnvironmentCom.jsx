@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Box, Gltf, Environment } from "@react-three/drei";
 import { OrbitControls } from "@react-three/drei";
+import { Avatar } from "../../public/models/Emilian";
 
 export default function EnvironmentCom() {
   return (
@@ -14,8 +15,8 @@ export default function EnvironmentCom() {
         position={[0, -8, 0]}
         rotation={[0, Math.PI, 0]}
       />
-      <Gltf
-        src="/models/emilian-avatar.glb"
+
+      <Avatar
         scale={(7, 7, 7)}
         position={[-11, -7.95, -14]}
         rotation={[0, 0.5, 0]}

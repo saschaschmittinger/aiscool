@@ -1,4 +1,4 @@
-import EnvironmentCom from "./components/Environment";
+import EnvironmentCom from "./components/EnvironmentCom";
 
 function App() {
   return <EnvironmentCom />;
